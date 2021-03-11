@@ -6,17 +6,17 @@ Golang names generator
 
 Usage
 ```
-mkdir names
-  614  cd names
-  615  go init alexnderallen/names
-  616  go mod init alexanderallen/names
-  
-  # Write example source code.
-  619  vi names.go
-  620  go mod tidy
-  624  go run .
+git clone https://github.com/AlexanderAllen/names names
+cd names
+go mod init alexanderallen/names
+go mod tidy
+go run .
+
+# install into $GOPATH
+go install
 ```
 
 Example output:
 
-![image](https://user-images.githubusercontent.com/14018885/110729049-0751d300-81ec-11eb-825d-86edacc13b3d.png)
+![image](https://user-images.githubusercontent.com/14018885/110731044-93b1c500-81ef-11eb-847f-7edeba58157a.png)
+
