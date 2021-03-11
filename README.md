@@ -1,0 +1,2 @@
+# names
+Golang names generator
